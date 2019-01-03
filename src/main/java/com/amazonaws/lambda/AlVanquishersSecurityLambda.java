@@ -9,6 +9,11 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.hackethon.dal.AlVanquishersDAO;
 
+/**
+ * 
+ * @author aravind
+ *
+ */
 public class AlVanquishersSecurityLambda implements RequestHandler<JSONObject, Object> {
 
 	/**
