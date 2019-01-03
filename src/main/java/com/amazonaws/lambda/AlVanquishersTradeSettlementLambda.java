@@ -40,6 +40,7 @@ public class AlVanquishersTradeSettlementLambda implements RequestHandler<JSONOb
 		}, 
 		inputTranscript=Account details
 	}
+	 *
 	 */
 	@Override
 	public Object handleRequest(JSONObject input, Context context) {
